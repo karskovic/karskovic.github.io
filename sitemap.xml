@@ -2,17 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://onebeer.github.io/</loc>
+    <loc>https://karskovic.github.io/</loc>
+    <lastmod>2025-02-23T16:16:21+05:30</lastmod>
+  </url><url>
+    <loc>https://karskovic.github.io/posts/</loc>
+    <lastmod>2025-02-23T16:16:21+05:30</lastmod>
+  </url><url>
+    <loc>https://karskovic.github.io/posts/test-2/</loc>
+    <lastmod>2025-02-23T16:16:21+05:30</lastmod>
+  </url><url>
+    <loc>https://karskovic.github.io/tags/first/</loc>
     <lastmod>2025-02-23T15:48:12+05:30</lastmod>
   </url><url>
-    <loc>https://onebeer.github.io/posts/</loc>
+    <loc>https://karskovic.github.io/tags/</loc>
     <lastmod>2025-02-23T15:48:12+05:30</lastmod>
   </url><url>
-    <loc>https://onebeer.github.io/posts/test/</loc>
+    <loc>https://karskovic.github.io/posts/test/</loc>
     <lastmod>2025-02-23T15:48:12+05:30</lastmod>
   </url><url>
-    <loc>https://onebeer.github.io/categories/</loc>
-  </url><url>
-    <loc>https://onebeer.github.io/tags/</loc>
+    <loc>https://karskovic.github.io/categories/</loc>
   </url>
 </urlset>
