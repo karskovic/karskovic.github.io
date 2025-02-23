@@ -1,0 +1,26 @@
+name: Deploy Hugo site
+
+on:
+  push:
+    branches:
+      - main  # Runs whenever changes are pushed to the 'main' branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest  # The job runs on the latest Ubuntu environment
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2  # Fetches your repository
+
+      - name: Install Hugo
+        run: sudo apt install hugo  # Installs Hugo on the runner
+
+      - name: Build Site
+        run: hugo  # Generates the static files in the 'public' directory
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Uses a built-in GitHub token for authentication
+          publish_dir: ./public  # Deploys the built site from the 'public' folder
